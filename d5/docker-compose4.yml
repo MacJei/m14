@@ -1,0 +1,11 @@
+version: '2'
+services:
+  yarn-notebook:
+    image: bigdatateam/hive-course2
+    tty: true
+    ports:
+      - '8888:8888'
+      - '50070:50070'
+      - '8088:8088'
+      - '19888':'19888'
+      

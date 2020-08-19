@@ -1,0 +1,1 @@
+use jovyan; create external table if not exists users(ip string, browser_info string, gender string, age int) row format delimited fields terminated by '\t' stored as textfile location '/user/jovyan/user_logs/user_data_S/';
